@@ -8,7 +8,8 @@ public class AddCustomer implements RoomBillComponent {
 
         double totalBill = (noOfdays * roomcharge) + (noOfdays * RoomBillComponent.foodCharge) + (extraPersonCharge * noOfdays);
         totalBill = totalBill + totalBill * RoomBillComponent.tax;
-        return totalBill;
+        return totalBill; //return bill.
+
     }
 
     public boolean validateNoofextraPersons(int noOfPeople) {
