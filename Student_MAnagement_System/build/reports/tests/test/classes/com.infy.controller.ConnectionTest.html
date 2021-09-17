@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - ConnectionTest</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>ConnectionTest</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/com.infy.controller.html">com.infy.controller</a> &gt; ConnectionTest</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">2</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">4.117s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+<li>
+<a href="#tab2">Standard error</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Method name</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">Should Not Create connection when parameters are null</td>
+<td class="success">shouldThrowRuntimeExceptionWhenParameterNull()</td>
+<td class="success">0.183s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testAdd()</td>
+<td class="success">testAdd()</td>
+<td class="success">3.934s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>Instantiating Connection
+Instantiating Connection
+</pre>
+</span>
+</div>
+<div id="tab2" class="tab">
+<h2>Standard error</h2>
+<span class="code">
+<pre>[cb-events] INFO com.couchbase.core - [com.couchbase.core][CoreCreatedEvent] {&quot;clientVersion&quot;:&quot;3.2.1&quot;,&quot;clientGitHash&quot;:&quot;${buildNumber}&quot;,&quot;coreVersion&quot;:&quot;2.2.1&quot;,&quot;coreGitHash&quot;:&quot;${buildNumber}&quot;,&quot;userAgent&quot;:&quot;couchbase-java/3.2.1 (Windows 10 10.0 amd64; Java HotSpot(TM) 64-Bit Server VM 1.8.0_301-b09)&quot;,&quot;maxNumRequestsInRetry&quot;:32768,&quot;ioEnvironment&quot;:{&quot;nativeIoEnabled&quot;:true,&quot;eventLoopThreadCount&quot;:4,&quot;eventLoopGroups&quot;:[&quot;NioEventLoopGroup&quot;]},&quot;ioConfig&quot;:{&quot;captureTraffic&quot;:[],&quot;mutationTokensEnabled&quot;:true,&quot;networkResolution&quot;:&quot;auto&quot;,&quot;dnsSrvEnabled&quot;:true,&quot;tcpKeepAlivesEnabled&quot;:true,&quot;tcpKeepAliveTimeMs&quot;:60000,&quot;configPollIntervalMs&quot;:2500,&quot;kvCircuitBreakerConfig&quot;:&quot;disabled&quot;,&quot;queryCircuitBreakerConfig&quot;:&quot;disabled&quot;,&quot;viewCircuitBreakerConfig&quot;:&quot;disabled&quot;,&quot;searchCircuitBreakerConfig&quot;:&quot;disabled&quot;,&quot;analyticsCircuitBreakerConfig&quot;:&quot;disabled&quot;,&quot;managerCircuitBreakerConfig&quot;:&quot;disabled&quot;,&quot;eventingCircuitBreakerConfig&quot;:&quot;disabled&quot;,&quot;numKvConnections&quot;:1,&quot;maxHttpConnections&quot;:12,&quot;idleHttpConnectionTimeoutMs&quot;:4500,&quot;configIdleRedialTimeoutMs&quot;:300000,&quot;memcachedHashingStrategy&quot;:&quot;StandardMemcachedHashingStrategy&quot;},&quot;compressionConfig&quot;:{&quot;enabled&quot;:true,&quot;minRatio&quot;:0.83,&quot;minSize&quot;:32},&quot;securityConfig&quot;:{&quot;tlsEnabled&quot;:false,&quot;nativeTlsEnabled&quot;:true,&quot;hostnameVerificationEnabled&quot;:true,&quot;hasTrustCertificates&quot;:false,&quot;trustManagerFactory&quot;:null,&quot;ciphers&quot;:[]},&quot;timeoutConfig&quot;:{&quot;kvMs&quot;:60000,&quot;kvDurableMs&quot;:10000,&quot;managementMs&quot;:75000,&quot;queryMs&quot;:10000,&quot;viewMs&quot;:75000,&quot;searchMs&quot;:75000,&quot;analyticsMs&quot;:75000,&quot;connectMs&quot;:10000,&quot;disconnectMs&quot;:10000,&quot;eventingMs&quot;:75000},&quot;loggerConfig&quot;:{&quot;customLogger&quot;:null,&quot;fallbackToConsole&quot;:false,&quot;consoleLogLevel&quot;:{&quot;name&quot;:&quot;INFO&quot;,&quot;resourceBundleName&quot;:&quot;sun.util.logging.resources.logging&quot;,&quot;localizedName&quot;:&quot;INFO&quot;},&quot;disableSlf4j&quot;:false,&quot;loggerName&quot;:&quot;CouchbaseLogger&quot;,&quot;diagnosticContextEnabled&quot;:false},&quot;orphanReporterConfig&quot;:{&quot;emitIntervalMs&quot;:10000,&quot;sampleSize&quot;:10,&quot;queueLength&quot;:1024,&quot;enabled&quot;:true},&quot;thresholdLoggingTracerConfig&quot;:{&quot;enabled&quot;:true,&quot;emitIntervalMs&quot;:10000,&quot;sampleSize&quot;:10,&quot;queueLength&quot;:1024,&quot;kvThresholdMs&quot;:500,&quot;queryThresholdMs&quot;:1000,&quot;searchThresholdMs&quot;:1000,&quot;analyticsThresholdMs&quot;:1000,&quot;viewThresholdMs&quot;:1000},&quot;loggingMeterConfig&quot;:{&quot;enabled&quot;:true,&quot;emitIntervalMs&quot;:600000},&quot;retryStrategy&quot;:&quot;BestEffortRetryStrategy&quot;,&quot;requestTracer&quot;:&quot;ThresholdLoggingTracer&quot;,&quot;meter&quot;:&quot;LoggingMeter&quot;,&quot;numRequestCallbacks&quot;:0} {&quot;coreId&quot;:&quot;0xf517ef9700000001&quot;,&quot;seedNodes&quot;:[{&quot;address&quot;:&quot;127.0.0.1&quot;}]}
+[cb-events] INFO com.couchbase.node - [com.couchbase.node][NodeConnectedEvent] Node connected {&quot;coreId&quot;:&quot;0xf517ef9700000001&quot;,&quot;managerPort&quot;:&quot;8091&quot;,&quot;remote&quot;:&quot;127.0.0.1&quot;}
+[cb-events] INFO com.couchbase.core - [com.couchbase.core][BucketOpenedEvent][747ms] Opened bucket &quot;Employee&quot; {&quot;coreId&quot;:&quot;0xf517ef9700000001&quot;}
+[cb-events] INFO com.couchbase.core - [com.couchbase.core][CoreCreatedEvent] {&quot;clientVersion&quot;:&quot;3.2.1&quot;,&quot;clientGitHash&quot;:&quot;${buildNumber}&quot;,&quot;coreVersion&quot;:&quot;2.2.1&quot;,&quot;coreGitHash&quot;:&quot;${buildNumber}&quot;,&quot;userAgent&quot;:&quot;couchbase-java/3.2.1 (Windows 10 10.0 amd64; Java HotSpot(TM) 64-Bit Server VM 1.8.0_301-b09)&quot;,&quot;maxNumRequestsInRetry&quot;:32768,&quot;ioEnvironment&quot;:{&quot;nativeIoEnabled&quot;:true,&quot;eventLoopThreadCount&quot;:4,&quot;eventLoopGroups&quot;:[&quot;NioEventLoopGroup&quot;]},&quot;ioConfig&quot;:{&quot;captureTraffic&quot;:[],&quot;mutationTokensEnabled&quot;:true,&quot;networkResolution&quot;:&quot;auto&quot;,&quot;dnsSrvEnabled&quot;:true,&quot;tcpKeepAlivesEnabled&quot;:true,&quot;tcpKeepAliveTimeMs&quot;:60000,&quot;configPollIntervalMs&quot;:2500,&quot;kvCircuitBreakerConfig&quot;:&quot;disabled&quot;,&quot;queryCircuitBreakerConfig&quot;:&quot;disabled&quot;,&quot;viewCircuitBreakerConfig&quot;:&quot;disabled&quot;,&quot;searchCircuitBreakerConfig&quot;:&quot;disabled&quot;,&quot;analyticsCircuitBreakerConfig&quot;:&quot;disabled&quot;,&quot;managerCircuitBreakerConfig&quot;:&quot;disabled&quot;,&quot;eventingCircuitBreakerConfig&quot;:&quot;disabled&quot;,&quot;numKvConnections&quot;:1,&quot;maxHttpConnections&quot;:12,&quot;idleHttpConnectionTimeoutMs&quot;:4500,&quot;configIdleRedialTimeoutMs&quot;:300000,&quot;memcachedHashingStrategy&quot;:&quot;StandardMemcachedHashingStrategy&quot;},&quot;compressionConfig&quot;:{&quot;enabled&quot;:true,&quot;minRatio&quot;:0.83,&quot;minSize&quot;:32},&quot;securityConfig&quot;:{&quot;tlsEnabled&quot;:false,&quot;nativeTlsEnabled&quot;:true,&quot;hostnameVerificationEnabled&quot;:true,&quot;hasTrustCertificates&quot;:false,&quot;trustManagerFactory&quot;:null,&quot;ciphers&quot;:[]},&quot;timeoutConfig&quot;:{&quot;kvMs&quot;:60000,&quot;kvDurableMs&quot;:10000,&quot;managementMs&quot;:75000,&quot;queryMs&quot;:10000,&quot;viewMs&quot;:75000,&quot;searchMs&quot;:75000,&quot;analyticsMs&quot;:75000,&quot;connectMs&quot;:10000,&quot;disconnectMs&quot;:10000,&quot;eventingMs&quot;:75000},&quot;loggerConfig&quot;:{&quot;customLogger&quot;:null,&quot;fallbackToConsole&quot;:false,&quot;consoleLogLevel&quot;:{&quot;name&quot;:&quot;INFO&quot;,&quot;resourceBundleName&quot;:&quot;sun.util.logging.resources.logging&quot;,&quot;localizedName&quot;:&quot;INFO&quot;},&quot;disableSlf4j&quot;:false,&quot;loggerName&quot;:&quot;CouchbaseLogger&quot;,&quot;diagnosticContextEnabled&quot;:false},&quot;orphanReporterConfig&quot;:{&quot;emitIntervalMs&quot;:10000,&quot;sampleSize&quot;:10,&quot;queueLength&quot;:1024,&quot;enabled&quot;:true},&quot;thresholdLoggingTracerConfig&quot;:{&quot;enabled&quot;:true,&quot;emitIntervalMs&quot;:10000,&quot;sampleSize&quot;:10,&quot;queueLength&quot;:1024,&quot;kvThresholdMs&quot;:500,&quot;queryThresholdMs&quot;:1000,&quot;searchThresholdMs&quot;:1000,&quot;analyticsThresholdMs&quot;:1000,&quot;viewThresholdMs&quot;:1000},&quot;loggingMeterConfig&quot;:{&quot;enabled&quot;:true,&quot;emitIntervalMs&quot;:600000},&quot;retryStrategy&quot;:&quot;BestEffortRetryStrategy&quot;,&quot;requestTracer&quot;:&quot;ThresholdLoggingTracer&quot;,&quot;meter&quot;:&quot;LoggingMeter&quot;,&quot;numRequestCallbacks&quot;:0} {&quot;coreId&quot;:&quot;0xf517ef9700000002&quot;,&quot;seedNodes&quot;:[{&quot;address&quot;:&quot;127.0.0.1&quot;}]}
+[cb-events] INFO com.couchbase.node - [com.couchbase.node][NodeConnectedEvent] Node connected {&quot;coreId&quot;:&quot;0xf517ef9700000002&quot;,&quot;managerPort&quot;:&quot;8091&quot;,&quot;remote&quot;:&quot;127.0.0.1&quot;}
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 7.1</a> at Sep 14, 2021 5:18:03 PM</p>
+</div>
+</div>
+</body>
+</html>
